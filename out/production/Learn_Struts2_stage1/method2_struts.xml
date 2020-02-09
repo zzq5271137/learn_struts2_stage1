@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="struts_method2" extends="struts-default"
+             namespace="/method2">
+        <!-- 通配符写法 -->
+        <!-- "*"即通配符 -->
+        <!-- class="com.mycomp.struts2.{1}"中的"{1}"代表第一个通配符的值, 也就是, 把name中第一个"*"的值取出来作为类名 -->
+        <!-- method="{2}"中的"{2}"代表第二个通配符的值, 也就是, 把name中第二个"*"的值取出来作为方法名 -->
+        <!-- "*"的位置从1开始 -->
+        <action name="*_*" class="com.mycomp.struts2.{1}" method="{2}">
+            <!-- 允许通过通配符访问的方法, 必须要写 -->
+            <allowed-methods>add,update,delete,find</allowed-methods>
+        </action>
+    </package>
+
+</struts>

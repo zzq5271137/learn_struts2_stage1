@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <!-- 动态方法调用的配置 -->
+    <!-- 默认是不开启这个功能的, 需要配置常量 -->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <package name="struts_method3" extends="struts-default"
+             namespace="/method3">
+        <action name="goods" class="com.mycomp.struts2.MethodAction">
+            <allowed-methods>add,update,delete,find</allowed-methods>
+        </action>
+    </package>
+
+</struts>
