@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8851d3ed-7dbf-4044-be1c-b59a24dc4d99" name="Default Changelist" comment="" />
+    <list default="true" id="8851d3ed-7dbf-4044-be1c-b59a24dc4d99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Learn_Struts2_stage1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Struts2_stage1.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -295,11 +300,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -319,6 +319,8 @@
       <updated>1581227971667</updated>
       <workItem from="1581227972978" duration="1852000" />
       <workItem from="1581229846195" duration="8872000" />
+      <workItem from="1581303848422" duration="6000" />
+      <workItem from="1581303913496" duration="2000" />
     </task>
     <servers />
   </component>
