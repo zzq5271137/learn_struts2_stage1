@@ -4,26 +4,33 @@
         "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
-    <!-- struts2的常量配置 -->
-    <!-- struts.action.extension: 配置请求的扩展名(value="action"表示请求只能以.action结尾) -->
-    <!-- <constant name="struts.action.extension" value="action"/> -->
-    <!-- 如果是value="action,,"则表示可以以.action结尾,也可以没有扩展名 -->
+    <!--
+        struts2的常量配置:
+        struts.action.extension: 配置请求的扩展名(value="action"表示请求只能以.action结尾);
+        如果是value="action,,"则表示可以以.action结尾,也可以没有扩展名;
+        也可以在web.xml中进行常量配置, 详见web.xml (如果参数名相同, web.xml的配置会覆盖这里的);
+    -->
     <!-- <constant name="struts.action.extension" value="action,,"/> -->
-    <!-- 也可以在web.xml中进行常量配置, 详见web.xml (如果参数名相同, web.xml的配置会覆盖这里的) -->
 
-    <!-- 一个工程当中会有很多模块, 一个模块当中会有很多请求 -->
-    <!-- package是为了更好的管理action请求, 把请求分到不同的模块, 一个模块就是一个package -->
-    <!-- namespace和action中的name共同决定了这个请求的访问路径 -->
-    <!-- 多个package可以通过namespace来区分 -->
-    <!-- 如果不写namespace, 则所有的请求都会进到这个模块 -->
-    <!-- abstract="true"表示此package是专门给别人继承的, 它本身无法接收请求 -->
-    <!-- <package name="struts" extends="struts-default" namespace="/test" abstract="false"> -->
-    <!-- method: 指定访问类中的哪个方法, 如果不写, 默认是执行execute方法 -->
-    <!-- <action name="hello" class="com.mycomp.struts2.HelloAction" method="execute"> -->
-    <!-- 配置结果页 -->
-    <!-- <result name="success">/zzq.jsp</result> -->
-    <!-- </action> -->
-    <!-- </package> -->
+    <!--
+        一个工程当中会有很多模块, 一个模块当中会有很多请求;
+        package是为了更好的管理action请求, 把请求分到不同的模块, 一个模块就是一个package;
+        namespace和action中的name共同决定了这个请求的访问路径, 多个package可以通过namespace来区分;
+        如果不写namespace, 则所有的请求都会进到这个模块;
+        abstract="true"表示此package是专门给别人继承的, 它本身无法接收请求;
+
+        action标签中的method: 指定访问类中的哪个方法, 如果不写, 默认是执行execute方法
+        result标签配置结果页
+    -->
+    <!--
+     <package name="struts" extends="struts-default" namespace="/test"
+              abstract="false">
+         <action name="hello" class="com.mycomp.struts2.HelloAction"
+                 method="execute">
+             <result name="success">/zzq.jsp</result>
+         </action>
+     </package>
+     -->
 
     <!-- package(模块标签)可以写在其他的配置文件中(例如多人合作开发的场景), 然后用inculde引入 -->
     <include file="zzq_struts.xml"/>

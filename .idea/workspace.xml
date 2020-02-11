@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8851d3ed-7dbf-4044-be1c-b59a24dc4d99" name="Default Changelist" comment="" />
+    <list default="true" id="8851d3ed-7dbf-4044-be1c-b59a24dc4d99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/resource/method2_struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/method2_struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/struts.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -320,6 +323,8 @@
       <workItem from="1581303848422" duration="6000" />
       <workItem from="1581303913496" duration="2000" />
       <workItem from="1581424767666" duration="22000" />
+      <workItem from="1581433706085" duration="18000" />
+      <workItem from="1581433732329" duration="484000" />
     </task>
     <servers />
   </component>
@@ -375,10 +380,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1251" height="209" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581244980408" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1581228782983">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1581434216245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581228782983" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581434216245" />
     <state x="262" y="0" key="new project wizard" timestamp="1581244845404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
