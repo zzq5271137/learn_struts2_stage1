@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8851d3ed-7dbf-4044-be1c-b59a24dc4d99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resource/method2_struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/method2_struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/struts2值栈与OGNL表达式.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/stust2.xmind" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resource" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/课件" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -58,18 +58,18 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\IDEA_workspace\Learn_Struts2_stage1\resource" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mycomp.struts2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\Learn_Struts2_stage1\课件" />
       <recent name="H:\IDEA_workspace\Learn_Struts2_stage1\resource" />
       <recent name="H:\IDEA_workspace\Learn_Struts2_stage1\web" />
       <recent name="H:\IDEA_workspace\Learn_Struts2_stage1" />
       <recent name="H:\IDEA_workspace\Learn_Struts2_stage1\src" />
-      <recent name="H:\IDEA_workspace\Learn_Struts2_stage1\web\WEB-INF\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mycomp.struts2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\Learn_Struts2_stage1\resource" />
     </key>
   </component>
   <component name="RunManager">
@@ -325,6 +325,9 @@
       <workItem from="1581424767666" duration="22000" />
       <workItem from="1581433706085" duration="18000" />
       <workItem from="1581433732329" duration="484000" />
+      <workItem from="1581484052952" duration="16000" />
+      <workItem from="1581484077185" duration="21000" />
+      <workItem from="1581484122650" duration="2000" />
     </task>
     <servers />
   </component>
